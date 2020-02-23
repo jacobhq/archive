@@ -8,19 +8,26 @@ body{
     background-color: black;
 }
 
+.backdrop{
+    background: url("space.jpg") center;
+    min-height: 100vh;
+}
+
 h1{
     color: white;
-    font-size: 4rem;
+    font-size: 8rem;
     font-family: sans-serif;
     text-align: center;
     line-height: 100vh;
+    background: rgb(0, 0, 0);
+    mix-blend-mode: multiply;
 }
 
-/* Text comes up 
+/* Text comes up */
 
 span{
     opacity: 0;
-    transition: all 0.5s ease;
+    transition: all 5s ease;
     transform: translateY(50px);
     display: inline-block;
 }
@@ -30,9 +37,9 @@ span.fade{
     transform: translateY(0px);
 }
 
-*/
 
-/* Text gradient */
+
+/* Text gradient 
 
 span{
     transition: all 5s ease;
@@ -42,3 +49,4 @@ span.fade{
     color: rgb(174, 174, 255);
 }
 
+*/

@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.backdrop{
+    background: url("space.jpg") center;
+    min-height: 100vh;
+}
+
+h1.fancy{
+    color: white;
+    font-size: 8rem;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 100vh;
+    background: rgb(0, 0, 0);
+    mix-blend-mode: multiply;
+}
+
+h1 {
+    color: white;
+    font-size: 8rem;
+    font-family: sans-serif;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    mix-blend-mode: multiply;
+}
+
+h3.section-header {
+    color: white;
+    font-family: sans-serif;
+    line-height: 5vh;
+    font-size: 3rem;
+}
+
+section.welcome {
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding-top: 50%;
+    padding-bottom: 25%;
+}
+
+p.lead {
+    color: white;
+    font-size: 1.3rem;
+    font-family: "Poppins";
+    margin-left: 2.5%;
+}
+
+div.spacer {
+    height: 10vh;
+}
+
+div.left-header {
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-left: 50%;
+}
+
+div.left-text {
+    padding-right: 5%;
+    padding-right: 2.5%;
+    float: left;
+    display: flex;
+    min-height: 50vh;
+    max-height: 100vh;
+    min-width: 30%;
+    max-width: 50%;
+}
+
+div.right-img {
+    padding-left: 5%;
+    float: right;
+    display: flex;
+    min-height: 50vh;
+    max-height: 100vh;
+    min-width: 50%;
+    max-width: 70%;
+}
+
+#b08e8e8f-1307-48a6-9539-94597298b0fc {
+    align-items: right;
+    align-self: right;
+}
+
+small {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    mix-blend-mode: multiply;
+}
+
+/* Text comes up */
+
+span{
+    opacity: 0;
+    transition: all 5s ease;
+    transform: translateY(50px);
+    display: inline-block;
+}
+
+span.fade{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+/* Text gradient 
+
+span{
+    transition: all 5s ease;
+}
+
+span.fade{
+    color: rgb(174, 174, 255);
+}
+
+*/

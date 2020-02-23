@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    text-align: center;	
+    color: black;	
+}
+
+.backdrop{
+    background: url("space.jpg") center;
+    min-height: 100vh;
+}
+
+h1.fancy{
+    color: white;
+    font-size: 8rem;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 100vh;
+    background: rgb(0, 0, 0);
+    mix-blend-mode: multiply;
+}
+
+h3{
+    font-family: sans-serif;
+    text-align: center;  
+}
+
+section{
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.welcome{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+h3.typing{
+    margin-left: 10px;
+    position: relative;
+}
+
+h3.typing::after{
+    content: "";
+    position: absolute;
+    right: -5px;
+    width: 1px;
+    height: 20%;
+    border-right: 2px solid white;
+    animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/* Text comes up */
+
+span{
+    opacity: 0;
+    transition: all 5s ease;
+    transform: translateY(50px);
+    display: inline-block;
+}
+
+span.fade{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+/* Text gradient 
+
+span{
+    transition: all 5s ease;
+}
+
+span.fade{
+    color: rgb(174, 174, 255);
+}
+
+*/
