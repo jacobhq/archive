@@ -9,7 +9,7 @@ body{
 }
 
 .backdrop{
-    background: url("./portfolio/space.jpg") center;
+    background: url("./space.jpg") center;
     min-height: 100vh;
 }
 
