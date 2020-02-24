@@ -52,6 +52,7 @@ p.lead {
     font-size: 1.3rem;
     font-family: "Poppins";
     margin-left: 2.5%;
+    padding-top: 12.5%;
 }
 
 div.spacer {
@@ -65,7 +66,7 @@ div.left-header {
     padding-left: 50%;
 }
 
-div.left-text {
+div.left {
     padding-right: 5%;
     padding-right: 2.5%;
     float: left;
@@ -76,8 +77,9 @@ div.left-text {
     max-width: 50%;
 }
 
-div.right-img {
+div.right {
     padding-left: 5%;
+    padding-left: 2.5%;
     float: right;
     display: flex;
     min-height: 50vh;
@@ -89,6 +91,11 @@ div.right-img {
 #b08e8e8f-1307-48a6-9539-94597298b0fc {
     align-items: right;
     align-self: right;
+}
+
+#a6968ac48-3a8f-41ea-a7fd-90e9ec00ee17 {
+    align-items: left;
+    align-self: left;
 }
 
 small {
