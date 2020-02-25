@@ -5,6 +5,11 @@
 }
 
 body{
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+.bg-active{
     background-color: black;
 }
 

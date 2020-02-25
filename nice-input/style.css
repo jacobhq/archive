@@ -11,11 +11,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: sans-serif;
-<<<<<<< HEAD
-    background: linear-gradient(135deg, #80ff6b 0%,#5fa8d3 100%);
-=======
     background:linear-gradient(135deg, #5fa8d3 0%,#0FF0B3 100%);
->>>>>>> f4045091d3ebf786953b34625b5a435f47e1cce8
     color: white;
 }
 
