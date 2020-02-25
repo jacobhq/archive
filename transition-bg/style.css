@@ -7,6 +7,7 @@
 body {
     background-color: #f9b9b7;
     font-family: sans-serif;
+    transition: all 0.5s ease;
 }
 
 header {
