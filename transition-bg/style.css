@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #f9b9b7;
+    font-family: sans-serif;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro-text h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.intro-text p {
+    font-size: 22px
+}
