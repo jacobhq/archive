@@ -49,3 +49,7 @@ img {
     height: 70%;
     object-fit: cover;
 }
+
+.bg-active {
+    background-color: white;
+}
