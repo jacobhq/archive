@@ -24,7 +24,7 @@ h1.fancy{
     font-family: sans-serif;
     text-align: center;
     line-height: 100vh;
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     mix-blend-mode: multiply;
 }
 
@@ -33,7 +33,7 @@ h1 {
     font-size: 8rem;
     font-family: sans-serif;
     text-align: center;
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     mix-blend-mode: multiply;
 }
 
