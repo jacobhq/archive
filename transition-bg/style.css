@@ -44,7 +44,7 @@ section {
     font-size: 30px;
 }
 
-section img {
+img {
     width: 90%;
     height: 70%;
     object-fit: cover;
