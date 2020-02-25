@@ -1,6 +1,8 @@
+console.log("All systems works normal");
+
 function bgChanger() {
-	console.log("All systems works normal");
-	console.log(this.scrollY);
+	if(this.scrollY > this.innerHeight / 2){
+	}
 }
 
 window.addEventListener("scroll", bgChanger);
