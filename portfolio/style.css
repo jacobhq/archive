@@ -43,8 +43,7 @@ h3.section-header {
 section.welcome {
     align-items: center;
     text-align: center;
-    height: 100vh;
-    padding-top: 50%;
+    height: 10vh;
     padding-bottom: 25%;
 }
 
