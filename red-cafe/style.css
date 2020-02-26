@@ -52,3 +52,17 @@ header {
     text-decoration: none;
     color: #686868;
 }
+
+.products {
+    height: 100vh;
+}
+
+.svg-container {
+    padding: 10%;
+    width: 5%;
+}
+
+.nav-brand {
+    font-size: 4rem;
+    font-style: bold;
+}
