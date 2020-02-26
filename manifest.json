@@ -1,0 +1,21 @@
+{
+  "short_name": "Desica",
+  "name": "Desica Web Development",
+  "icons": [
+    {
+      "src": "https://desica.uk/images/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://desica.uk/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#ffffff",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#ffffff"
+}
