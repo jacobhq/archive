@@ -26,6 +26,48 @@ header {
     color: white;
 }
 
+.section-title {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.card-title {
+    padding-left: 5%;
+    text-align: center;
+}
+
+.dog {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10%;
+    width: fit-content;
+    margin: 10%;
+}
+
+.drink {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10%;
+    width: fit-content;
+    margin: 10%;
+}
+
+.cupcake {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10%;
+    width: fit-content;
+    margin: 10%;
+}
+
+.more-width {
+    width: 10%;
+}
+
 .header-desc {
     color: white;
 }
@@ -54,7 +96,7 @@ header {
 }
 
 .products {
-    height: 100vh;
+    height: 70vh;
 }
 
 .svg-container {
@@ -65,4 +107,21 @@ header {
 .nav-brand {
     font-size: 4rem;
     font-style: bold;
+}
+
+.product-svg-container {
+    display: grid;
+    grid-row: auto;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.card-desc {
+    text-align: center;
+}
+
+svg {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
 }
