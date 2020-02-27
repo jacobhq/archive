@@ -6,6 +6,8 @@
     <title>The red cafe</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./red-cafe/style.css'>
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.8.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
     <nav>
@@ -458,7 +460,23 @@
             </div>
         </div>
         </section>
+        <section class="map">
+            <h2 class="section-title white" style="padding-bottom: 10%;">Visit us</h2>
+            <div class="grid-rows">
+                <div id='map' style='width: 400px; height: 300px;'></div>
+                <div class="right-text">
+                    <p class="white" style="font-size: 1.5rem; padding-bottom: 10%;">We are located at Ewell court House, a beautiful location for beautiful cakes.</p>
+                </div>
+            </div>
+        </section>
     </main>
     <script src='./red-cafe/app.js'></script>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZGVzaWNhIiwiYSI6ImNrNzNqZ2tsYjBja2kzZ3QwY3BxYzY1cnYifQ.FDY61BbFyoIBNHHI-Ynl6g';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/desica/ck73pvd7v2cu41jrvcxqlvgy4'
+  });
+</script>
 </body>
 </html>
