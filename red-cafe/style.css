@@ -97,6 +97,7 @@ header {
 
 .products {
     height: 70vh;
+    padding-bottom: 10%;
 }
 
 .svg-container {
