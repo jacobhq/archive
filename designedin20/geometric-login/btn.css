@@ -1,9 +1,8 @@
 html, body {
     display: grid;
-    height: 100%;
 }
 
-a {
+a.btn {
     border: 4px solid #3F3F3F;
     color: #3F3F3F;
     display: inline-block;
