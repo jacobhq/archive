@@ -33,17 +33,17 @@ function init() {
     container.appendChild(renderer.domElement);
     // Load model
     let loader = new THREE.GLTFLoader();
-    loader.load('./3d/scene.gltf', function(gltf) {
-        scene.add(gltf.scene);
-        // Setup animation
-        jet = gltf.scene.children[0];
-        animate()
+    loader.load('./3d/jet/scene.gltf', function(gltf) {
+    scene.add(gltf.scene);
+    // Setup animation
+    jet = gltf.scene.children[0];
+    animate()
     });
 }
 
 function animate() {
     requestAnimationFrame(animate);
-    jet.rotation.z += 0.005;
+    jet.rotation.z += 0.01;
     renderer.render(scene, camera);  
 
 }
