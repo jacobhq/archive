@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Poppins&display=swap');
+
+body {
+    background-color: #DFE3F1;
+    color: #465561;
+}
+
+header {
+    text-align: center;
+    height: 100vh;
+    padding: 20vh;
+}
+
+#down {
+    position: fixed;
+    top: 90%;
+    right: 1%;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
