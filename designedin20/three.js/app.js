@@ -33,7 +33,7 @@ function init() {
     container.appendChild(renderer.domElement);
     // Load model
     let loader = new THREE.GLTFLoader();
-    loader.load('./3d/jet/scene.gltf', function(gltf) {
+    loader.load('https://olden.now.sh/designedin20/three.js/3d/jet/scene.gltf', function(gltf) {
     scene.add(gltf.scene);
     // Setup animation
     jet = gltf.scene.children[0];
