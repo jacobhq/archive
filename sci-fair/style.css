@@ -11,7 +11,7 @@ body{
 }
 
 .backdrop{
-    background: url("space.jpg") center;
+    background: url("https://olden.now.sh/sci-fair/space.jpg") center;
     min-height: 100vh;
 }
 
