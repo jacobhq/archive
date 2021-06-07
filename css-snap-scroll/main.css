@@ -1,0 +1,56 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body .container {
+  width: 100%;
+  height: 100%;
+  -ms-scroll-snap-type: y proximity;
+      scroll-snap-type: y proximity;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body .container section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+body .container section:nth-of-type(1) {
+  background-color: #1c1c1c;
+  color: green;
+}
+
+body .container section:nth-of-type(2) {
+  background-color: #262626;
+  color: blue;
+}
+
+body .container section:nth-of-type(3) {
+  background-color: #303030;
+  color: yellow;
+}
+
+body .container section h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15em;
+}
+/*# sourceMappingURL=main.css.map */
